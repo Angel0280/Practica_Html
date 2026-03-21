@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica HTML</title>
+    <style>
+        body{
+            background-color: red;
+        }
+        th{
+            color : white;         
+        }
+        thead{
+            background-color: black;
+        }
+        tbody{
+            background-color: white;
+        }
+    </style>
 </head>
 <body>
+    <h1 style="color: white; text-align: center; font-size: xx-large;">Coca Cola</h1>
+    <h2 style="color: white; text-align: center;">Catalogo de productos</h2>
+
+    <button onclick="location.href='productos.html'">Ver Productos Mas Vendidos</button>
     
+    <table border="1"  cellspacing="0" cellpadding="8">
+        <h2 style="color: white;">Productos mas vendidos</h2>
+        <thead>
+            <tr>
+                <th>N°</th>
+                <th>Nombre</th>
+                <th>Ventas (Hoy)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Gaseosa de 2Lts</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Gaseosa de 1Lts</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Gaseosa de 500ml</td>
+                <td>60</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
