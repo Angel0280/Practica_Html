@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos mas vendidos</title>
+    <style>
+        body{
+            background-color: #F40008;
+        }
+        thead{
+            background-color: black;
+        }
+        tbody{
+            background-color: white;
+        }
+        th{
+            color : white;         
+        }
+    </style>
 </head>
 <body>
-    
+     <h1 style="color: white; text-align: center; font-size: 60px;"><img src="imagenes/images.png" alt=""></h1>
+    <table border="0.5"  cellspacing="0" cellpadding="8"; align="center">
+        <h2 style="color: white; text-align: center;">Productos mas vendidos</h2>
+        <hr class="linea-completa">
+        <thead>
+            <tr>
+                <th>N°</th>
+                <th>Nombre</th>
+                <th>Ventas (Hoy)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Gaseosa de 2Lts</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Gaseosa de 1Lts</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Gaseosa de 500ml</td>
+                <td>60</td>
+            </tr>
+        </tbody>
+    </table>
+    <div style="text-align: center; padding: 20px;">
+        <button class="btn-nav" onclick="location.href='index.html'">Volver a la página principal</button> 
+    </div>
 </body>
 </html>
